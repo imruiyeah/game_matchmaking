@@ -3,7 +3,7 @@ Please unzip the package and use maven and Java 8 to compile it.
 You can also use Intellij to open the project if you have Intellij installed.
 
 DESCRIPTION
-To solve the matchmaking problem, two steps are introduced:
+To solve the general matchmaking problem for online games, two steps are introduced:
 1) Pick the first player in the queue, and find the similar players of him/her. This is handled by the PlayerFinder interface. I implemented two subclasses of PlayerFinder.
 2) Split the players found in the above step into two teams and put them into a match. This is handled by the TeamBuilder interface. I also implemented two subclasses of TeamBuilder.
 All classes are fully covered by unit tests.
